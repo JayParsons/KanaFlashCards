@@ -50,10 +50,6 @@ public class KanaFlashCardTest {
         return newMap;
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(KanaFlashCardTest::createAndShowGUI);
-    }
-
     // Show initial UI to allow user to choose the test type
     private static void createAndShowGUI() {
         JFrame frame = new JFrame("Kana Flash Card Test");
@@ -119,5 +115,9 @@ public class KanaFlashCardTest {
         } else {
             System.exit(0);
         }
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(KanaFlashCardTest::createAndShowGUI);
     }
 }
