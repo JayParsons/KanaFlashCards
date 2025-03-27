@@ -91,7 +91,7 @@ public class KanaFlashCardTest {
             String question = entry.getKey();
             String correctAnswer = entry.getValue();
 
-            UIManager.put("OptionPane.messageFont", new Font("Yu Gothic", Font.BOLD, 20));
+            UIManager.put("OptionPane.messageFont", new Font("Yu Gothic", Font.BOLD, 25));
             
             String userAnswer = JOptionPane.showInputDialog(frame, "What is the romanization of " + question + "?");
             // Center the dialog box
