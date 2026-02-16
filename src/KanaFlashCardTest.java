@@ -27,8 +27,8 @@ import java.util.Map;
 
 public class KanaFlashCardTest {
     // HashMaps for each Kana type
-    private static final Map<String, String> HIRAGANA_MAP = createMapFromFile("./KanaFlashCards/hiragana.txt");
-    private static final Map<String, String> KATAKANA_MAP = createMapFromFile("./KanaFlashCards/katakana.txt");
+    private static final Map<String, String> HIRAGANA_MAP = createMapFromFile("hiragana.txt");
+    private static final Map<String, String> KATAKANA_MAP = createMapFromFile("katakana.txt");
 
     private static Map<String, String> createMapFromFile(String filename) {
         // Create a HashMap to store the key-value pairs
